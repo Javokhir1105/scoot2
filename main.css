@@ -28,9 +28,10 @@ top: 22px;
 left: 1095px;
 background-color: orange;
 color: white;
+transition: 0.3s;
 }
 .header__button:hover{
-    transition: 3;
+    transform: scale(0.8);
 }
 /* ---------------------------------------thing--------------------------------------------- */
 .thing__container{
