@@ -2,12 +2,14 @@
     box-sizing: border-box;
 }
 .header__a{
+    text-decoration: none;
     color: rgb(72, 66, 66); 
 }
 .container{
     max-width: 1440px;
     margin: 0 auto;
     padding: 25px;
+    border: 2px solid red;
 }
 .header__container{
     width: 1100px;
@@ -296,6 +298,10 @@ text-align: left;
     padding-top: 0px;
     margin-top: -10px
 }
+.over__container{
+    max-width: 1400px;
+    background-color: rgba(73, 85, 103, 1);
+}
 .container2{
     max-width: 1440px;
     margin: 0 auto;
@@ -304,5 +310,36 @@ text-align: left;
 }
 .header__container2{
     max-width: 1440px;
+    height: 100px;
     background: rgba(51, 58, 68, 1);
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+
+
+
+
+@media(max-width:1400px){
+    .container{
+        width: 1080px;
+    }
+    .heder__container{
+        margin-left: 100px;
+    }
+    .over__container{
+        width: 1100px;
+    }
+    .container2{
+        width: 1100px;
+    }
+    .header__piece{
+        margin-left: 0;
+        width: 820px;
+    }
+    .over__menu{
+        margin-left: -25px;
+    }
 }
